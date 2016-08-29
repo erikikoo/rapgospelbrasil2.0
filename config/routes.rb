@@ -165,7 +165,7 @@ Rails.application.routes.draw do
    #resources :discographys
    #resources :phones
    #resources :emails
-   #resources :artist_datas
+   resources :artist_datas
    #resources :rede_sociais
    #resources :videos
    #resources :commitments  
