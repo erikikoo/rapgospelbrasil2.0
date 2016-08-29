@@ -67,7 +67,11 @@
 .blueberry .pager li.active a span { background: #F9F9F9; }
 
 .pager li > a, .pager li > span {
-	border: none;
+	border: none !important;
+} 
+
+.pager li > a:hover, .pager li > span:hover, .pager li > a:visited, .pager li > a:active {
+	background-color: transparent !important;
 } 
 
 .blueberry .slides li:last-child {

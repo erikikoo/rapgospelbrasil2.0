@@ -9,12 +9,12 @@ textarea {
 }
 
 a:active, a:hover, a:visited, a:link {
-	text-decoration: none;	
+	text-decoration: none !important;	
 }
 
 .container {
 	position: relative;
-	width: 1002px;
+	width: 1002px !important;
 	height: auto;
 	margin-right: auto;
 	margin-left: auto;

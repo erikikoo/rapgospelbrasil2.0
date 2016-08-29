@@ -1,0 +1,3456 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+
+
+*/
+ /*@import "bootstrap";*/
+
+
+
+#mensagem {
+	position: fixed;
+	width: 100%;
+	margin-top: 0px;
+	height: 50px;
+	top: 0px;
+	z-index: 999999999;
+	left: 0px;
+}
+
+.corpo {
+	position: relative;	
+	height: auto;
+	padding-top: 20px;
+}
+
+.po1sicionamento {
+	position: relative;
+	margin-top: 20px;
+}
+
+.perfil-display {
+	left: 140px;
+}
+
+
+.sub-menu {	
+	position: relative;
+	width: 568px;			
+	top: -350px;
+	left:-20px;
+}
+
+.sub-menu ul li {
+	position: relative;
+	display: inline-block;
+	list-style: none;
+}
+
+
+
+/* DISCOGRAFIA SHOW */
+.text-aling {
+	text-align: center;
+}
+
+.painel-show-adm {
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+	max-width: 193px;
+	max-height: 200px;	
+	
+}
+
+.painel-show-adm p {
+	margin: 10px 5px;
+}
+
+
+.painel-image {
+	position: relative;
+	width: 500px;
+	height: 390px;
+	left: 11px;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-o-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+
+}
+
+.painel-sem-agenda {
+	position: relative;
+	top: -390px;
+	width: 415px;
+	border-radius: 2px;
+	left: 550px;
+	height:450px;
+	background-color: #eee;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-o-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	padding: 10px;
+
+}
+
+.painel-agenda {
+	position: relative;
+	top: -390px;
+	width: 415px;
+	border-radius: 2px;
+	left: 550px;
+	height:450px;
+	background-color: #eee;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-o-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+}
+.item-artista {
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+	max-width: 200px;
+	max-height: 200px;
+	text-align: center;
+}
+
+.dados-login {
+	text-align: right;
+	font-size: 14px;
+	width: 100%;
+	height: 120px;
+	padding: 20px;
+	background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059422/body-img/TopoPainel.jpg");
+
+}
+
+.logotipo {
+	width: 120px;
+	height: 127px;	
+	position: absolute;
+
+	left: 10px;
+	background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059416/body-img/LogoPainelArtista.jpg");	
+	z-index: 3;
+}
+
+
+/* Cotato Show*/
+.contato-telefone {
+	
+
+}
+
+.contato-email {
+	position: absolute;
+	height: auto;
+	left: 184px;
+	top: 25px;
+}
+
+/*principal*/
+
+.sidebar {
+	margin: 10px 10px;
+	position: relative;
+	width: 150px;
+	height: 100%;	
+	top: 25px;
+}
+
+.painel-artistas-art, .painel-artistas-adm {
+	position: relative;
+	left: 200px;
+	width: 79%;
+	min-height: 220px;
+	padding: 5px 10px;
+		
+}
+
+.painel-artistas-art {
+	
+	top: -366px;
+}
+
+
+
+.painel-artistas-adm {
+	top: -207px;
+}
+
+.novo {
+	margin: 20px;
+}
+
+.icoRedeSocial {
+	width: 42px;
+	height: 42px;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+} 
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.painel-redesocial {
+	width: 100%;
+}
+
+.artista-nao-aprovado {
+	position: relative;
+	top: 30px;
+}
+
+
+.container-contato, .container-album, .container-videos, .container-agenda, .container-historia, .container-redesocial {
+	position: relative;
+	border: 1px solid #eee;
+	width: 100%;
+	height: auto;
+	padding: 10px 5px;
+}
+
+
+.painel-show-info {
+	position: relative;
+	display: inline-block;
+	width: 98%;
+	min-height: 100px;
+	margin: 10px auto;
+	padding: 10px 5px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-shadow: 1px 2px #ccc;
+	-webkit-box-shadow: 1px 2px #ccc;
+	-moz-box-shadow: 1px 2px #ccc;
+	-o-box-shadow: 1px 2px #ccc;
+}
+
+.painel-login {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.painel-login a:active,.painel-login a:hover,.painel-login a:visited,.painel-login a:link {
+	color: #ffffff;
+}
+
+.painel-login + label {
+	color: #dd1111;
+}
+
+#loading {
+	position: absolute;	
+	width: 335px;
+	padding: 2px 0px 0px 35px;	
+}
+
+#loading img {
+	height: 15px;
+}
+
+
+.mascara {
+	display: none;
+	width: 250px;
+	height: 30px;
+	position: fixed;
+	right: 50%;
+	left: 50%;	
+	margin-left: -142px;	
+	background-color: #FFE57E;	
+	z-index: 99;
+}
+
+.text-perfil {
+	position: relative;
+	float: left;
+	margin-top: 13px;
+	list-style: none;
+}
+
+.container {
+	width: 960px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.painel-video {
+	width: 560px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom:20px; 
+	border: 1px solid #eee;
+}
+
+.vid1eos {
+	position: relative;
+	width: 560px;
+	display:inline-block;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+
+.imagem-noticia-show {	
+	float: left;	
+	padding-right: 15px;	
+}
+
+.imagem-noticia-list {	
+	float: left;	
+	padding-right: 15px;	.
+	margin-top: 22px;
+}
+.palavras {
+	width: 100%;
+}
+
+.palavras p {
+	position: relative;
+	/*float: left;*/
+	vertical-align: middle;
+
+}
+
+.videos-perfil {
+	width: 530px;
+}
+
+.videos  {
+	width: 100%;	
+	list-style: none;
+}
+
+.videos ul li {
+	display: inline-block;
+	margin: 10px 0px ;
+}
+
+.videos ul {
+
+	margin-left: -45px;
+}
+.top5 tr td {
+	padding: 3px;
+}
+
+.pag-show {
+	padding: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+.controle-login {
+	margin-top: 20px;
+	display: inline-block;	
+}
+
+.painel-artistas {	
+	clear: both;
+	margin: -400px auto 50px auto;
+	left: 5px;
+	height: auto;
+	padding:60px 10px 5px 10px;
+	width:98%;
+	background-color: #eee;	
+	border-radius: 2px;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-o-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+}
+
+
+
+/*devise */
+
+.pag-login {	
+		background-color: #000;
+		background-image: url('http://res.cloudinary.com/dgql7hcka/image/upload/v1464892071/backgroundcadastro_canrd8.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		/*background-position: 0 -120px;*/		
+		min-height: 723px;
+		margin-top: -36px;
+	}
+/* @media screen and (max-width: 1199px) {
+	.pag-login {	
+		background-color: #000;
+		background-image: url('http://res.cloudinary.com/dgql7hcka/image/upload/v1464892071/backgroundcadastro_canrd8.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 833px;
+		background-position: 0 -120px;		
+		height: 713px;
+		margin-top: -36px;
+	}
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1366px ) {
+	.pag-login {
+		background-color: #000;	
+		background-image: url('http://res.cloudinary.com/dgql7hcka/image/upload/v1464892071/backgroundcadastro_canrd8.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: 0 -120px;
+		width: 100%;
+		min-height: 673px;
+		height: 713px;
+		margin-top: -76px;
+	}
+} 
+
+@media screen and (min-width: 1366px) {
+	.pag-login {
+		background-color: #000;	
+		background-image: url('http://res.cloudinary.com/dgql7hcka/image/upload/v1464892071/backgroundcadastro_canrd8.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		/*background-position: 0 -120px;
+		width: 100%;
+		min-height: 673px;
+		height: 713px;
+		margin-top: -76px;
+	}
+}
+*/
+
+
+
+.painel-login {	
+	top: 140px;
+	left: -150px;
+	color:#fff;
+}
+
+.btn-topo {
+	display: none;
+	position: fixed;
+	position:fixed;
+	top:555px;
+	right:40px;
+	background-color: rgba(40, 40, 40, .5);
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	z-index: 999;
+}
+
+.btn-topo i {
+	position: fixed;
+	top:568px;
+	right:54px;
+	font-size: 2rem;
+	color: #fff;
+
+}
+
+.btn-topo:hover {
+	background-color: rgba(40, 40, 40, 1);
+}
+/*
+ * jQuery Blueberry Slider v0.4 BETA
+ * http://marktyrrell.com/labs/blueberry/
+ *
+ * Copyright (C) 2011, Mark Tyrrell <me@marktyrrell.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0;	
+	overflow: hidden;
+}
+.blueberry .slides li img {
+	display: block;
+	width: 901px;
+	height: 194px;
+	max-width: none;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	height: 40px;
+	text-align: center;
+}
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 4px;
+	width: 4px;
+	background-color: #282828;
+}
+.blueberry .pager li a {
+	padding: 18px 8px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #8E0000;
+	text-indent: -9999px;
+	border-radius: 50%;
+
+}
+.blueberry .pager li.active a span { background: #F9F9F9; }
+
+.pager li > a, .pager li > span {
+	border: none !important;
+} 
+
+.pager li > a:hover, .pager li > span:hover, .pager li > a:visited, .pager li > a:active {
+	background-color: transparent !important;
+} 
+
+.blueberry .slides li:last-child {
+	top: -10px;
+}
+// Place all the styles related to the Discographys controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.show-disco {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+body {
+	min-width: 999px;
+	height:auto;	
+	background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059543/body-img/FundoPagina.jpg");
+	top:-10px;		
+}
+
+
+.painel-noticias {
+	position: relative;	
+	top: 20px;
+	height: 290px;	
+}
+
+.left {
+	position: relative;
+	width:325px;	
+	height: 290px; 	
+	margin-top: -15px;
+	left: -10px;
+}
+
+
+.titulo  {
+	position: absolute;
+	left:150px;	
+	width: 200px;
+	font-size: 20px;	
+	top: 10px;
+}
+
+.titulo-sem-img {	
+	position: absolute;
+	
+	width: 200px;
+	font-size: 20px;	
+
+}
+
+.noticia {
+	position: absolute;
+	top: 30px;
+	height: 260px;
+	width:350px;	
+	left: 0px;
+}
+
+.noticia p {
+	margin-left: -20px;
+	margin-top: 10px;
+	width: 355px;
+}
+
+.noticia img {
+	margin-left: -20px; 
+}
+
+
+.right {
+	position: absolute;
+	width:350px;
+	left:620px;
+	top:0px;
+	height: 100px;	
+}
+
+
+
+.anuncios {
+	position: relative;
+	height: 100px;	
+	margin-top: 70px;
+	
+}
+
+.anuncio-maior {
+	position: absolute;
+	width: 650px;	
+	height: 90px;
+	top: 5px;	
+	padding-left: 10px;	
+} 
+
+.anuncio-menor {
+	position: absolute;
+	width: 292px;
+	height: 90px;
+	top: 5px;
+	left: 623px;
+	
+	
+} 
+
+.painel-palavras {
+	position: relative;
+	height: auto;	
+	margin: 20px 0;
+	
+}
+
+.parte-maior {	
+	width: 515px;
+	left: 10px;
+	height: 240px;
+	top: 5px;	
+} 
+.parte-maior h2 {
+	color: #000;
+}
+
+
+.noticia-index {
+	position: relative;	
+	margin-top: 20px;
+	left: 20px;
+	
+}
+
+.noticias-index {
+	position: relative;
+	width: 100%;
+	height: auto;
+
+}
+
+.palavra-index, .palavra-pag-index {
+	padding: 1px;
+}
+
+.palavra-index img, .palavra-pag-index img  {
+	float: left;
+	padding-right: 10px;
+	margin-top: 4px;
+}
+
+.palavra-pag-index {
+	max-height: 120px;
+}
+
+.texto-palavra {
+	margin-top: -10px;
+	margin-left: 70px;
+}
+
+
+.noticia-texto {
+	position: absolute;
+	margin-top: 0px;
+	left: 77px;
+	width: 500px;
+}
+
+.noticia-texto a {
+	color: #000;
+}
+
+.parte-menor {
+	position: absolute;
+	width: 370px;
+	height: 240px;
+	top: -20px;
+	left: 580px;
+	padding: 10px 0;
+	
+}
+
+.parte-menor h3 {
+	height: 35px;	
+	background-color: #000;
+	color: #fff;
+	padding-left: 30px;
+	padding-top:3px;
+}
+
+.parte-menor ul {
+	list-style: none;
+}
+
+.painel-midia-sociais {
+	position: relative;
+	height: auto;	
+	margin-top: 100px;	
+}
+
+.midia-maior {
+	position: relative;
+	width: 480px;
+	left: 10px;
+	height: auto;
+	top: 5px;
+	
+} 
+
+.midia-anuncio-menor {	
+	position: relative;
+	width: 480px;
+	min-height: 145px;
+	top: -51px;
+	left: 500px;	
+}
+
+.search-artistas ul li {	
+	display: inline-block;	
+	position: relative;
+	left: -20px;
+	padding: 9px;
+}
+
+.ultimos-artistas ul li {	
+	display: inline-block;	
+	position: relative;
+	left: 150px;
+}
+
+.artistas ul {	
+	list-style: none;
+}
+
+.text-ultima {
+	color: #828282;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.titulo-noticia {
+	font-weight: bold;	
+	font-size: 20px;
+
+}
+
+.texto-noticia {
+	position: absolute;
+	top: 30px;	
+	width: 340px;
+}
+
+.texto-noticias {
+	position: relative;	
+	padding: 10px;
+	
+}
+
+
+.body {	
+	min-height: 200px;
+	margin-bottom: 70px;
+}
+
+
+.painel-principal {	
+	z-index: 3;
+	height: 475px;
+	margin: 0 auto;	
+	background-color: #282828;	
+}
+
+.clear {
+	clear: both;
+}
+
+.banner-pri {
+	position: relative;
+	left: -19px;
+	margin: 20px;
+	z-index: 3;
+}
+
+.banner-principal {
+	position: relative;
+	left: 0px;
+}
+
+
+.container-noticias {
+	margin: 10px;
+	padding: 0px 15px 40px;
+	border: 1px solid #ccf;
+	height: auto;
+	overflow: hidden;
+}
+
+.usuario-controle {
+	width: 250px;
+	height: 30px;	
+	position: absolute;
+	top:200px;
+	left: 67%;
+	z-index: 4;
+	color: #fff;
+}
+
+.ultimos-artistas {
+	position: absolute;	
+	height: 130px;
+	width: 98%;			
+}
+.ultimos-artistas ul {
+	margin-top: -115px;
+	margin-left: 100px;
+}
+
+.ultimos-artistas ul li{
+	display: inline-block;
+	padding: 5px;
+}
+
+.link-veja-mais {
+	position:relative;
+	left:400px;
+	/*top:242px;*/	
+}
+
+.link_videos {
+	position: absolute;
+	left: 231px;
+	top: 265px;
+}
+
+
+
+.botao-veja-mais-ultima-noticia {
+	position: absolute;
+	top:262px;	
+	left:250px;
+	width: 103px;	
+}
+
+.btn-default-index {
+	color: #fff;
+	padding: 10px;	
+	background-color: #8E0000;
+	border: 1px solid #8E0000;
+}
+
+.btn-default-index:visited, .btn-default-index:active, .btn-default-index:link {
+	color: #fff;
+}
+
+.btn-default-index:hover {
+	color: #8E0000;	
+	background-color: #fff;
+}
+
+.painel-noticias-anuncio {
+	background-color: #ddd;
+	height: 290px;
+	position: absolute;
+	width:250px;
+	top:0px;
+	left:360px;
+}
+
+.criado-em {
+	float: right;
+}
+
+.noticias {
+	position: relative;
+	height: auto;
+}
+
+.img-perfil {
+	float: right;
+	margin-right: 20px;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+
+.img-perfil:hover {
+	display:block;
+}
+
+.btn-controle-login {
+	background-color: #404040;
+	color:#FBFBFB; 
+	font-size: 20px;
+}
+
+.btn-controle-login:hover  {
+	color: #930504;
+}
+
+.pag-quem-somos {
+	position:relative;
+	margin-top: 50px;	
+}
+
+.pag-quem-somos h2 {
+	margin-bottom: 30px;	
+}
+
+.table-top5 {
+	padding: 10px;
+}
+
+.show-art-principal {	
+	position:relative;
+	left: 12px;
+	width: 100%;
+}
+
+.pag-show-artista {	
+	margin-top: -17px;			
+	/*min-height:785px;	*/
+}
+
+.show-art-principal h3 {	
+	padding:5px 0;	
+}
+
+.contato {
+	position: relative;
+	top: 16px;
+	left: -3px;
+	height: 40px;
+	width: 504px;	
+	border-radius: 2px;
+	padding: 8px 5px;
+	background: #eee;		
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-o-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+
+}
+
+.contato > img {
+	position: relative;
+	top: -2px;
+	padding-left: 10px;
+
+}
+
+.logo-redesocial {
+	position: absolute;
+	top: -395px;
+	left: 435px;
+}
+
+.logo-redesocial img {
+	border-radius: 5px;	
+	-webkit-border-radius: 5px;	
+	-o-border-radius: 5px;	
+	-moz-border-radius: 5px;	
+}
+
+.emails ul {
+	position: relative;
+	left: -45px;
+}
+
+.emails ul li {	
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	-o-box-shadow: 2px 2px 3px rgba(0,0,0,0.18);
+	padding: 5px 8px;
+	display: block;
+	margin: 5px;
+}
+
+
+
+/* pag contato */
+
+.contato-painel-dimenssao {
+	width: 450px;
+	height: 400px;
+}
+
+.pag-contato-left {	
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.pag-contato-right {	
+	float: left;
+	margin-bottom: 50px;
+
+}
+
+.pag-contato-right li {
+	position: relative;
+	top: 30px;
+	list-style: none;
+	padding: 5px 0;
+}
+
+.pag-contato-right ul li a:hover, .rede-social-index a:hover, div[class^="painel-like-index"] a:hover, .painel-like-artist-show a:hover {
+	color: #fff;
+	background-color: rgba(0,0,0,0);
+}
+
+.pag-contato-left form {
+	width: 410px;
+
+}
+
+.btn-contato-enviar {
+	float: right;
+	border-radius: 5px;
+	width: 100px;
+	height: 40px;
+	background-color: #8E0000;
+	color: #fff;
+	border: 1px solid #8E0000;	
+}
+
+.btn-contato-enviar:hover {
+	border: 1px solid #8E0000;	
+	color: #8E0000;	
+	background-color: #fff;
+}
+
+.rede-social-index {
+	position: absolute;
+	right: 50px;
+	top: 20px;
+	z-index: 9;
+}
+
+div[class^="painel-like-index"] {
+	position: relative;
+	top: -43px;
+	margin-left: 157px;
+}
+.painel-like-artist-show .qnt-like-pag-show{
+	position: absolute;	
+	left: 415px;	
+	top:0;
+	text-align:center;
+}
+
+.qnt-like-pag-show-sem-like {
+	position: absolute;	
+	left: 400px;	
+	top:0;
+	text-align:center;
+}
+
+.painel-like-artist-show img {
+	position: absolute;
+	top: -4px;
+	left: 470px;	
+}
+
+
+.table-like td:nth-child(3) {
+	padding-left: 30px;	
+}
+
+.nome-artist-index-artist {
+	position:relative;
+	top: -40px;
+}
+
+.artist-mais-like-index ul {	
+	margin:0;
+	padding:0;
+	display: inline-block;
+}
+
+.artist-mais-like-index li {	
+	list-style: none;
+	text-align: center;
+}
+
+.artist-nao-completo-email {
+	position: relative;
+	top: 235px;
+}
+
+.pag-send-event {
+	position: relative;
+	margin-bottom: 160px;
+}
+
+.checkout {
+	width:  600px;
+	height: auto;
+	margin: 200px auto;
+}
+
+.artist-mais-like-index {
+	position: relative;
+	left: 15px;
+}
+
+.dicas h3 {
+	position: relative;
+	top: -15px;
+	left: 0;
+	color: #8E0000;
+
+}
+
+.content_dicas {
+	position: relative;
+	float: left;
+	min-height: 300px;
+	width: 75%;
+	left: 40px;	
+	top: 40px;	
+}
+
+.container_dicas li, .container_dicas img  {
+	margin-top: 20px;
+}
+.menu_faq {
+	position: relative;
+	top: 50px;
+	float: left; 
+	min-height: 300px;
+	width: 20%;
+	border-right: 3px solid #8E0000;	
+}
+
+.menu_faq ul {
+	position: relative;
+	top: 30px;
+	list-style: none;
+	text-align: right;
+	
+}
+
+.menu_faq ul li {			
+	font-size: 1.3rem;
+	color: #8E0000;
+}
+
+.menu_faq ul li a {
+	padding: 6px 15px;
+
+}			
+
+.btn_menu_faq, .btn_menu_faq a:hover, .btn_menu_faq a:active {	
+	position: relative;
+	display: block;
+	width: 100%;
+	color: #8E0000;				
+}
+
+
+.btn_menu_faq:hover, .btn_menu_faq:visited {	
+	color: #fff;
+	background-color: #8E0000;
+}
+
+
+
+
+.faq h3 {
+	position: relative;
+	width: 78%;
+	left: 40px;
+	color: #8E0000;	
+	top: 27px;
+
+}
+
+.content_faq {
+	position: relative;
+	float: left;
+	min-height: 300px;
+	width: 78%;
+	left: 40px;	
+	top: 25px;	
+} 
+
+.faq_cadastro h4 {
+	color: #8E0000;
+}
+
+.faq ul  { 
+	list-style: none;
+}
+.faq ul > li {
+	width: 100%;
+	border-bottom: 1px dotted #ccc;
+	margin: 20px -40px;
+}
+
+.faq li > strong {
+	cursor: pointer;
+}
+
+.faq li > p {
+	margin: 10px 0;
+	display: none;
+}
+
+.rotate {
+	  -webkit-transform: rotate(90deg);
+	  transform: rotate(90deg);
+}
+
+/*dicas de uso*/
+
+.dicas h3 {
+	position: relative;
+	top: -15px;
+	left: 0;
+	color: #8E0000;
+
+}
+
+.content_dicas {
+	position: relative;
+	float: left;
+	min-height: 300px;
+	width: 75%;
+	left: 40px;	
+	top: 40px;	
+}
+
+.container_dicas li, .container_dicas img  {
+	margin-top: 20px;
+}
+footer {
+	position: relative;
+	bottom: 0 !important;
+	width: 100%;		
+}
+
+.rodape-inferior {
+	height: 20px;
+	background-color: #000;
+	top: 10px;
+	bottom: 0px;
+}
+
+.texto-rodape-inferior {
+	position: relative;
+	left: 20px;
+	color: #fff;
+}
+
+.mapa-do-site {	
+	height: 200px;
+	background-color: #8E0000;	
+	z-index: 2;
+}
+
+.menu-mapa-do-site {
+	position: absolute;
+	left: 35px;
+	color: #fff;
+	top: 20px;	
+}
+
+.menu-mapa-do-site ul {
+	display: inline-block;
+}
+
+.menu-mapa-do-site ul:first-child, .menu-mapa-do-site ul:last-child  {
+	position: relative;
+	top: -23px;
+}
+
+.menu-mapa-do-site ul:last-child  {
+	position: relative;
+	top: -48px;
+}
+
+.menu-mapa-do-site ul > li {		
+	position:relative;	
+	left: 20px;
+}
+
+.m1enu-mapa-do-site ul:nth-child(even) {		
+	position:relative;
+	top: 0px;
+}
+		
+.menu-mapa-do-site li, .menu-mapa-do-site a:link, .menu-mapa-do-site a:visited   {
+	list-style: none;
+	color: #fff;
+	padding: 3px 0;
+	font-size: 1.2rem;
+}
+
+.menu-mapa-do-site ul li:first-child {
+	font-size: 1.8rem;
+}
+.logo-mapa-do-site {
+	position: absolute;
+	right: 30px;
+	top: 50px;
+}
+
+.link-development {
+	position: relative;
+	top:0;
+	float:right;
+	padding-right: 40px;
+}
+
+.link-development a:visited, .link-development a:active, .link-development a:link {
+	color: #fff;
+}
+header {
+	background-color: #000;
+}
+
+.topo {	
+	height: 288px;
+	width: 100%;	
+}
+
+.fundo {
+	position: relative;
+	top:5px;
+	height: 292px;	
+	background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059400/body-img/FundoCabecalho.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 97%;		
+}
+
+.logo {
+	z-index: 2;
+	position: relative;
+	top: -280px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 214px;
+	height: 236px;	
+}
+
+.faixa-header {
+	position: relative;	
+	height: 7px;
+	top:-292px;
+	background-color: #8E0000;	
+	z-index: 1;
+}
+
+.painel-menu {
+	position: absolute;
+	top:75px;
+	height: 77px;		
+	background-image: url('http://res.cloudinary.com/dgql7hcka/image/upload/v1465059414/body-img/FundoMenu.jpg');	
+	z-index: 1;
+	width: 100%;
+}
+
+.left-menu {
+	margin-left: -30px;
+	float: left;		
+}
+.left-menu ul {
+	left: -20px;
+}
+
+
+.right-menu {
+	margin-right: 45px;
+	float: right;		
+}
+
+.menu {		
+	list-style: none;
+	width: 990px;	
+}
+
+.menu ul {
+	margin-top: 10px;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.menu ul li a {	
+	font-size: 15px;	
+	display: inline-block;
+	text-align: center;
+	padding: 15px 20px;	
+	text-decoration: none;				
+	color: #fff;
+	
+}
+.menu ul li a:hover {	
+	color: #AA1C20;	
+}
+
+
+
+.topo {	
+	height: 288px;
+	width: 100%;	
+}
+
+.fundo {
+	position: relative;
+	top:5px;
+	height: 292px;	
+	background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059400/body-img/FundoCabecalho.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 97%;		
+}
+
+.logo {
+	z-index: 2;
+	position: relative;
+	top: -280px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 214px;
+	height: 236px;	
+}
+
+.faixa-header {
+	position: relative;	
+	height: 7px;
+	top:-292px;
+	background-color: #8E0000;	
+	z-index: 1;
+}
+
+.painel-menu {
+	position: absolute;
+	top:75px;
+	height: 77px;		
+	background-image: url('http://res.cloudinary.com/dgql7hcka/image/upload/v1465059414/body-img/FundoMenu.jpg');	
+	z-index: 1;
+	width: 100%;
+}
+
+.left-menu {
+	margin-left: -30px;
+	float: left;		
+}
+.left-menu ul {
+	left: -20px;
+}
+
+
+.right-menu {
+	margin-right: 45px;
+	float: right;		
+}
+
+.menu {		
+	list-style: none;
+	width: 990px;	
+}
+
+.menu ul {
+	margin-top: 10px;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.menu ul li a {	
+	font-size: 15px;	
+	display: inline-block;
+	text-align: center;
+	padding: 15px 20px;	
+	text-decoration: none;				
+	color: #fff;
+	
+}
+.menu ul li a:hover {	
+	color: #AA1C20;	
+}
+
+header {
+	background-color: #fff;
+}
+
+.topo {	
+	height: 288px;
+	width: 100%;	
+}
+
+.fundo {
+	position: relative;
+	top:5px;
+	height: 292px;	
+	background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059400/body-img/FundoCabecalho.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 97%;		
+}
+
+.logo {
+	z-index: 2;
+	position: relative;
+	top: -280px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 214px;
+	height: 236px;	
+}
+
+.faixa-header {
+	position: relative;	
+	height: 7px;
+	top:-292px;
+	background-color: #8E0000;	
+	z-index: 1;
+}
+
+.painel-menu {
+	position: absolute;
+	top:75px;
+	height: 77px;		
+	background-image: url('http://res.cloudinary.com/dgql7hcka/image/upload/v1465059414/body-img/FundoMenu.jpg');	
+	z-index: 1;
+	width: 100%;
+}
+
+.left-menu {
+	margin-left: -30px;
+	float: left;		
+}
+.left-menu ul {
+	left: -20px;
+}
+
+
+.right-menu {
+	margin-right: 45px;
+	float: right;		
+}
+
+.menu {		
+	list-style: none;
+	width: 990px;	
+}
+
+.menu ul {
+	margin-top: 10px;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.menu ul li a {	
+	font-size: 15px;	
+	display: inline-block;
+	text-align: center;
+	padding: 15px 20px;	
+	text-decoration: none;				
+	color: #fff;
+	
+}
+.menu ul li a:hover {	
+	color: #AA1C20;	
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #353535;
+  color: #FFF;
+}
+.jumbotron h1 {
+  color: #353535;
+}
+footer {
+  margin-bottom: 0 !important;
+  
+}
+footer p {
+  margin: 0;
+  padding: 0;
+}
+span.icon {
+  margin: 0 5px;
+  color: #D64541;
+}
+h2 {
+  color: #BDC3C7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.mrng-60-top {
+  margin-top: 60px;
+}
+/* Global Button Styles */
+a.animated-button:link, a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size:14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  border-radius: 0;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+  content: "";
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 150%;
+  z-index: -1;
+  -webkit-transition: all 0.75s ease 0s;
+  transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+  color: #FFF;
+  text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+  height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size:14px;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: .08em;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+a.animated-button.victoria-one {
+  border: 2px solid #D24D57;
+}
+a.animated-button.victoria-one:after {
+  background: #D24D57;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+a.animated-button.victoria-two {
+  border: 2px solid #D24D57;
+}
+a.animated-button.victoria-two:after {
+  background: #D24D57;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+a.animated-button.victoria-three {
+  border: 2px solid #D24D57;
+}
+a.animated-button.victoria-three:after {
+  background: #D24D57;
+  opacity: .5;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+a.animated-button.victoria-three:hover:after {
+  height: 140%;
+  opacity: 1;
+}
+a.animated-button.victoria-four {
+  border: 2px solid #D24D57;
+}
+a.animated-button.victoria-four:after {
+  background: #D24D57;
+  opacity: .5;
+  -webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
+a.animated-button.victoria-four:hover:after {
+  opacity: 1;
+  height: 600% !important;
+}
+/* Sandy Buttons */
+
+a.animated-button.sandy-one {
+  border: 2px solid #AEA8D3;
+  color: #FFF;
+}
+a.animated-button.sandy-one:after {
+  border: 3px solid #AEA8D3;
+  opacity: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  
+}
+a.animated-button.sandy-one:hover:after {
+  height: 120% !important;
+  opacity: 1;
+  color: #FFF;
+}
+a.animated-button.sandy-two {
+  border: 2px solid #AEA8D3;
+  color: #FFF;
+}
+a.animated-button.sandy-two:after {
+  border: 3px solid #AEA8D3;
+  opacity: 0;
+  -webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
+a.animated-button.sandy-two:hover:after {
+  height: 600% !important;
+  opacity: 1;
+  color: #FFF;
+}
+a.animated-button.sandy-three {
+  border: 2px solid #AEA8D3;
+  color: #FFF;
+}
+a.animated-button.sandy-three:after {
+  border: 3px solid #AEA8D3;
+  opacity: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+a.animated-button.sandy-three:hover:after {
+  height: 400% !important;
+  opacity: 1;
+  color: #FFF;
+}
+a.animated-button.sandy-four {
+  border: 2px solid #AEA8D3;
+  color: #FFF;
+}
+a.animated-button.sandy-four:after {
+  border: 3px solid #AEA8D3;
+  opacity: 0;
+  -webkit-transform: translateY(-50%) translateX(-50%) rotate(25deg);
+  transform: translateY(-50%) translateX(-50%) rotate(25deg);
+}
+a.animated-button.sandy-four:hover:after {
+  height: 400% !important;
+  opacity: 1;
+  color: #FFF;
+}
+/* Gibson Buttons */
+
+a.animated-button.gibson-one {
+  border: 2px solid #65b37a;
+  color: #FFF;
+}
+a.animated-button.gibson-one:after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+  background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+  background-size: 10px 10px;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+a.animated-button.gibson-one:hover:after {
+  height: 600% !important;
+  opacity: 1;
+  color: #FFF;
+}
+a.animated-button.gibson-two {
+  border: 2px solid #65b37a;
+  color: #FFF;
+}
+a.animated-button.gibson-two:after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+  background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+  background-size: 10px 10px;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+  transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+a.animated-button.gibson-two:hover:after {
+  height: 600% !important;
+  opacity: 1;
+  color: #FFF;
+}
+a.animated-button.gibson-three {
+  border: 2px solid #65b37a;
+  color: #FFF;
+}
+a.animated-button.gibson-three:after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+  background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+  background-size: 10px 10px;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg);
+  transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+a.animated-button.gibson-three:hover:after {
+  height: 600% !important;
+  opacity: 1;
+  color: #FFF;
+}
+a.animated-button.gibson-four {
+  border: 2px solid #65b37a;
+  color: #FFF;
+}
+a.animated-button.gibson-four:after {
+  opacity: 0;
+  background-image: -webkit-linear-gradient( transparent 50%, rgba(101,179,122,0.2) 50%);
+  background-image: -moz-linear-gradient(transparent 50%, rgba(101,179,122,0.2) 50%);
+  background-size: 10px 10px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+a.animated-button.gibson-four:hover:after {
+  height: 600% !important;
+  opacity: 1;
+  color: #FFF;
+}
+/* Thar Buttons */
+
+a.animated-button.thar-one {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid #F7CA18;
+  -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-one:hover {
+  color: #000 !important;
+  background-color: transparent;
+  text-shadow: none;
+}
+a.animated-button.thar-one:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+a.animated-button.thar-one:before {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 0px;
+  width: 100%;
+  z-index: -1;
+  content: '';
+  color: #000 !important;
+  background: #F7CA18;
+  -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-two {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid #F7CA18;
+  -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-two:hover {
+  color: #000 !important;
+  background-color: transparent;
+  text-shadow: ntwo;
+}
+a.animated-button.thar-two:hover:before {
+  top: 0%;
+  bottom: auto;
+  height: 100%;
+}
+a.animated-button.thar-two:before {
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 0px;
+  width: 100%;
+  z-index: -1;
+  content: '';
+  color: #000 !important;
+  background: #F7CA18;
+  -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-three {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid #F7CA18;
+  -webkit-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+a.animated-button.thar-three:hover {
+  color: #000 !important;
+  background-color: transparent;
+  text-shadow: nthree;
+}
+a.animated-button.thar-three:hover:before {
+  left: 0%;
+  right: auto;
+  width: 100%;
+}
+a.animated-button.thar-three:before {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 0px;
+  z-index: -1;
+  content: '';
+  color: #000 !important;
+  background: #F7CA18;
+  -webkit-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+a.animated-button.thar-four {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid #F7CA18;
+  -webkit-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+a.animated-button.thar-four:hover {
+  color: #000 !important;
+  background-color: transparent;
+  text-shadow: nfour;
+}
+a.animated-button.thar-four:hover:before {
+  right: 0%;
+  left: auto;
+  width: 100%;
+}
+a.animated-button.thar-four:before {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 0px;
+  z-index: -1;
+  content: '';
+  color: #000 !important;
+  background: #F7CA18;
+  -webkit-transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+textarea {
+	resize: none;
+	width: 100%;
+	height: 100px;
+}
+
+.link a:active,.link a:hover,.link a:visited {
+	color: #fff;
+}
+
+a:active, a:hover, a:visited, a:link {
+	text-decoration: none !important;	
+}
+
+.container {
+	position: relative;
+	width: 1002px !important;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.container-videos {
+	width: 92%;
+	margin: 0 auto;
+}
+
+
+
+/* line 1, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, D:/RapGospelBrasil/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 6, D:/RapGospelBrasil2.0/app/assets/stylesheets/welcome.css.scss */
+.dropdown-menu {
+  font-size: 12px;
+}
+
+/* line 1, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+header {
+  background-color: #000;
+}
+
+/* line 5, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.topo {
+  height: 288px;
+  width: 100%;
+}
+
+/* line 10, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.fundo {
+  position: relative;
+  top: 5px;
+  height: 292px;
+  background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059400/body-img/FundoCabecalho.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 97%;
+}
+
+/* line 19, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.logo {
+  z-index: 2;
+  position: relative;
+  top: -280px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 214px;
+  height: 236px;
+}
+
+/* line 29, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.faixa-header {
+  position: relative;
+  height: 7px;
+  top: -292px;
+  background-color: #8E0000;
+  z-index: 1;
+}
+
+/* line 37, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.painel-menu {
+  position: absolute;
+  top: 75px;
+  height: 77px;
+  background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059414/body-img/FundoMenu.jpg");
+  z-index: 1;
+  width: 100%;
+}
+
+/* line 46, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.left-menu {
+  margin-left: -30px;
+  float: left;
+}
+
+/* line 50, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.left-menu ul {
+  left: -20px;
+}
+
+/* line 55, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.right-menu {
+  margin-right: 45px;
+  float: right;
+}
+
+/* line 60, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu {
+  list-style: none;
+  width: 990px;
+}
+
+/* line 65, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul {
+  margin-top: 10px;
+}
+
+/* line 69, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul li {
+  display: inline;
+}
+
+/* line 73, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul li a {
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 82, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul li a:hover {
+  color: #AA1C20;
+}
+
+/* line 88, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.topo {
+  height: 288px;
+  width: 100%;
+}
+
+/* line 93, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.fundo {
+  position: relative;
+  top: 5px;
+  height: 292px;
+  background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059400/body-img/FundoCabecalho.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 97%;
+}
+
+/* line 102, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.logo {
+  z-index: 2;
+  position: relative;
+  top: -280px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 214px;
+  height: 236px;
+}
+
+/* line 112, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.faixa-header {
+  position: relative;
+  height: 7px;
+  top: -292px;
+  background-color: #8E0000;
+  z-index: 1;
+}
+
+/* line 120, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.painel-menu {
+  position: absolute;
+  top: 75px;
+  height: 77px;
+  background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059414/body-img/FundoMenu.jpg");
+  z-index: 1;
+  width: 100%;
+}
+
+/* line 129, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.left-menu {
+  margin-left: -30px;
+  float: left;
+}
+
+/* line 133, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.left-menu ul {
+  left: -20px;
+}
+
+/* line 138, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.right-menu {
+  margin-right: 45px;
+  float: right;
+}
+
+/* line 143, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu {
+  list-style: none;
+  width: 990px;
+}
+
+/* line 148, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul {
+  margin-top: 10px;
+}
+
+/* line 152, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul li {
+  display: inline;
+}
+
+/* line 156, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul li a {
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 165, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul li a:hover {
+  color: #AA1C20;
+}
+
+/* line 169, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+header {
+  background-color: #fff;
+}
+
+/* line 173, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.topo {
+  height: 288px;
+  width: 100%;
+}
+
+/* line 178, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.fundo {
+  position: relative;
+  top: 5px;
+  height: 292px;
+  background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059400/body-img/FundoCabecalho.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 97%;
+}
+
+/* line 187, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.logo {
+  z-index: 2;
+  position: relative;
+  top: -280px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 214px;
+  height: 236px;
+}
+
+/* line 197, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.faixa-header {
+  position: relative;
+  height: 7px;
+  top: -292px;
+  background-color: #8E0000;
+  z-index: 1;
+}
+
+/* line 205, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.painel-menu {
+  position: absolute;
+  top: 75px;
+  height: 77px;
+  background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059414/body-img/FundoMenu.jpg");
+  z-index: 1;
+  width: 100%;
+}
+
+/* line 214, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.left-menu {
+  margin-left: -30px;
+  float: left;
+}
+
+/* line 218, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.left-menu ul {
+  left: -20px;
+}
+
+/* line 223, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.right-menu {
+  margin-right: 45px;
+  float: right;
+}
+
+/* line 228, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu {
+  list-style: none;
+  width: 990px;
+}
+
+/* line 233, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul {
+  margin-top: 10px;
+}
+
+/* line 237, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul li {
+  display: inline;
+}
+
+/* line 241, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul li a {
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 250, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/header_estilo.css */
+.menu ul li a:hover {
+  color: #AA1C20;
+}
+
+/* line 2, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+body {
+  min-width: 999px;
+  height: auto;
+  background-image: url("http://res.cloudinary.com/dgql7hcka/image/upload/v1465059543/body-img/FundoPagina.jpg");
+  top: -10px;
+}
+
+/* line 10, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.painel-noticias {
+  position: relative;
+  top: 20px;
+  height: 290px;
+}
+
+/* line 16, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.left {
+  position: relative;
+  width: 325px;
+  height: 290px;
+  margin-top: -15px;
+  left: -10px;
+}
+
+/* line 25, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.titulo {
+  position: absolute;
+  left: 150px;
+  width: 200px;
+  font-size: 20px;
+  top: 10px;
+}
+
+/* line 33, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.titulo-sem-img {
+  position: absolute;
+  width: 200px;
+  font-size: 20px;
+}
+
+/* line 41, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.noticia {
+  position: absolute;
+  top: 30px;
+  height: 260px;
+  width: 350px;
+  left: 0px;
+}
+
+/* line 49, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.noticia p {
+  margin-left: -20px;
+  margin-top: 10px;
+  width: 355px;
+}
+
+/* line 55, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.noticia img {
+  margin-left: -20px;
+}
+
+/* line 60, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.right {
+  position: absolute;
+  width: 350px;
+  left: 620px;
+  top: 0px;
+  height: 100px;
+}
+
+/* line 70, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.anuncios {
+  position: relative;
+  height: 100px;
+  margin-top: 70px;
+}
+
+/* line 77, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.anuncio-maior {
+  position: absolute;
+  width: 650px;
+  height: 90px;
+  top: 5px;
+  padding-left: 10px;
+}
+
+/* line 85, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.anuncio-menor {
+  position: absolute;
+  width: 292px;
+  height: 90px;
+  top: 5px;
+  left: 623px;
+}
+
+/* line 95, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.painel-palavras {
+  position: relative;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* line 102, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.parte-maior {
+  width: 515px;
+  left: 10px;
+  height: 240px;
+  top: 5px;
+}
+
+/* line 108, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.parte-maior h2 {
+  color: #000;
+}
+
+/* line 113, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.noticia-index {
+  position: relative;
+  margin-top: 20px;
+  left: 20px;
+}
+
+/* line 120, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.noticias-index {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* line 127, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.palavra-index, .palavra-pag-index {
+  padding: 1px;
+}
+
+/* line 131, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.palavra-index img, .palavra-pag-index img {
+  float: left;
+  padding-right: 10px;
+  margin-top: 4px;
+}
+
+/* line 137, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.palavra-pag-index {
+  max-height: 120px;
+}
+
+/* line 141, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.texto-palavra {
+  margin-top: -10px;
+  margin-left: 70px;
+}
+
+/* line 147, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.noticia-texto {
+  position: absolute;
+  margin-top: 0px;
+  left: 77px;
+  width: 500px;
+}
+
+/* line 154, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.noticia-texto a {
+  color: #000;
+}
+
+/* line 158, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.parte-menor {
+  position: absolute;
+  width: 370px;
+  height: 240px;
+  top: -20px;
+  left: 580px;
+  padding: 10px 0;
+}
+
+/* line 168, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.parte-menor h3 {
+  height: 35px;
+  background-color: #000;
+  color: #fff;
+  padding-left: 30px;
+  padding-top: 3px;
+}
+
+/* line 176, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.parte-menor ul {
+  list-style: none;
+}
+
+/* line 180, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.painel-midia-sociais {
+  position: relative;
+  height: auto;
+  margin-top: 100px;
+}
+
+/* line 186, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.midia-maior {
+  position: relative;
+  width: 480px;
+  left: 10px;
+  height: auto;
+  top: 5px;
+}
+
+/* line 195, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.midia-anuncio-menor {
+  position: relative;
+  width: 480px;
+  min-height: 145px;
+  top: -51px;
+  left: 500px;
+}
+
+/* line 203, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.search-artistas ul li {
+  display: inline-block;
+  position: relative;
+  left: -20px;
+  padding: 9px;
+}
+
+/* line 210, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.ultimos-artistas ul li {
+  display: inline-block;
+  position: relative;
+  left: 150px;
+}
+
+/* line 216, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.artistas ul {
+  list-style: none;
+}
+
+/* line 220, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.text-ultima {
+  color: #828282;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 226, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.titulo-noticia {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* line 232, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.texto-noticia {
+  position: absolute;
+  top: 30px;
+  width: 340px;
+}
+
+/* line 238, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.texto-noticias {
+  position: relative;
+  padding: 10px;
+}
+
+/* line 245, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.body {
+  min-height: 200px;
+  margin-bottom: 70px;
+}
+
+/* line 251, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.painel-principal {
+  z-index: 3;
+  height: 475px;
+  margin: 0 auto;
+  background-color: #282828;
+}
+
+/* line 258, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.clear {
+  clear: both;
+}
+
+/* line 262, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.banner-pri {
+  position: relative;
+  left: -19px;
+  margin: 20px;
+  z-index: 3;
+}
+
+/* line 269, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.banner-principal {
+  position: relative;
+  left: 0px;
+}
+
+/* line 275, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.container-noticias {
+  margin: 10px;
+  padding: 0px 15px 40px;
+  border: 1px solid #ccf;
+  height: auto;
+  overflow: hidden;
+}
+
+/* line 283, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.usuario-controle {
+  width: 250px;
+  height: 30px;
+  position: absolute;
+  top: 200px;
+  left: 67%;
+  z-index: 4;
+  color: #fff;
+}
+
+/* line 293, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.ultimos-artistas {
+  position: absolute;
+  height: 130px;
+  width: 98%;
+}
+
+/* line 298, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.ultimos-artistas ul {
+  margin-top: -115px;
+  margin-left: 100px;
+}
+
+/* line 303, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.ultimos-artistas ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* line 308, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.link-veja-mais {
+  position: relative;
+  left: 400px;
+  /*top:242px;*/
+}
+
+/* line 314, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.link_videos {
+  position: absolute;
+  left: 231px;
+  top: 265px;
+}
+
+/* line 322, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.botao-veja-mais-ultima-noticia {
+  position: absolute;
+  top: 262px;
+  left: 250px;
+  width: 103px;
+}
+
+/* line 329, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.btn-default-index {
+  color: #fff;
+  padding: 10px;
+  background-color: #8E0000;
+  border: 1px solid #8E0000;
+}
+
+/* line 336, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.btn-default-index:visited, .btn-default-index:active, .btn-default-index:link {
+  color: #fff;
+}
+
+/* line 340, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.btn-default-index:hover {
+  color: #8E0000;
+  background-color: #fff;
+}
+
+/* line 345, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.painel-noticias-anuncio {
+  background-color: #ddd;
+  height: 290px;
+  position: absolute;
+  width: 250px;
+  top: 0px;
+  left: 360px;
+}
+
+/* line 354, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.criado-em {
+  float: right;
+}
+
+/* line 358, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.noticias {
+  position: relative;
+  height: auto;
+}
+
+/* line 363, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.img-perfil {
+  float: right;
+  margin-right: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+/* line 370, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.img-perfil:hover {
+  display: block;
+}
+
+/* line 374, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.btn-controle-login {
+  background-color: #404040;
+  color: #FBFBFB;
+  font-size: 20px;
+}
+
+/* line 380, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.btn-controle-login:hover {
+  color: #930504;
+}
+
+/* line 384, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.pag-quem-somos {
+  position: relative;
+  margin-top: 50px;
+}
+
+/* line 389, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.pag-quem-somos h2 {
+  margin-bottom: 30px;
+}
+
+/* line 393, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.table-top5 {
+  padding: 10px;
+}
+
+/* line 397, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.show-art-principal {
+  position: relative;
+  left: 12px;
+  width: 100%;
+}
+
+/* line 403, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.pag-show-artista {
+  margin-top: -17px;
+  /*min-height:785px;	*/
+}
+
+/* line 408, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.show-art-principal h3 {
+  padding: 5px 0;
+}
+
+/* line 412, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.contato {
+  position: relative;
+  top: 16px;
+  left: -3px;
+  height: 40px;
+  width: 504px;
+  border-radius: 2px;
+  padding: 8px 5px;
+  background: #eee;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);
+  -o-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);
+}
+
+/* line 428, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.contato > img {
+  position: relative;
+  top: -2px;
+  padding-left: 10px;
+}
+
+/* line 435, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.logo-redesocial {
+  position: absolute;
+  top: -395px;
+  left: 435px;
+}
+
+/* line 441, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.logo-redesocial img {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+/* line 448, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.emails ul {
+  position: relative;
+  left: -45px;
+}
+
+/* line 453, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.emails ul li {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);
+  -o-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.18);
+  padding: 5px 8px;
+  display: block;
+  margin: 5px;
+}
+
+/* pag contato */
+/* line 468, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.contato-painel-dimenssao {
+  width: 450px;
+  height: 400px;
+}
+
+/* line 473, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.pag-contato-left {
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 479, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.pag-contato-right {
+  float: left;
+  margin-bottom: 50px;
+}
+
+/* line 485, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.pag-contato-right li {
+  position: relative;
+  top: 30px;
+  list-style: none;
+  padding: 5px 0;
+}
+
+/* line 492, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.pag-contato-right ul li a:hover, .rede-social-index a:hover, div[class^="painel-like-index"] a:hover, .painel-like-artist-show a:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+/* line 497, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.pag-contato-left form {
+  width: 410px;
+}
+
+/* line 502, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.btn-contato-enviar {
+  float: right;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  background-color: #8E0000;
+  color: #fff;
+  border: 1px solid #8E0000;
+}
+
+/* line 512, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.btn-contato-enviar:hover {
+  border: 1px solid #8E0000;
+  color: #8E0000;
+  background-color: #fff;
+}
+
+/* line 518, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.rede-social-index {
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  z-index: 9;
+}
+
+/* line 525, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+div[class^="painel-like-index"] {
+  position: relative;
+  top: -43px;
+  margin-left: 157px;
+}
+
+/* line 530, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.painel-like-artist-show .qnt-like-pag-show {
+  position: absolute;
+  left: 415px;
+  top: 0;
+  text-align: center;
+}
+
+/* line 537, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.qnt-like-pag-show-sem-like {
+  position: absolute;
+  left: 400px;
+  top: 0;
+  text-align: center;
+}
+
+/* line 544, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.painel-like-artist-show img {
+  position: absolute;
+  top: -4px;
+  left: 470px;
+}
+
+/* line 551, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.table-like td:nth-child(3) {
+  padding-left: 30px;
+}
+
+/* line 555, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.nome-artist-index-artist {
+  position: relative;
+  top: -40px;
+}
+
+/* line 560, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.artist-mais-like-index ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+/* line 566, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.artist-mais-like-index li {
+  list-style: none;
+  text-align: center;
+}
+
+/* line 571, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.artist-nao-completo-email {
+  position: relative;
+  top: 235px;
+}
+
+/* line 576, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.pag-send-event {
+  position: relative;
+  margin-bottom: 160px;
+}
+
+/* line 581, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.checkout {
+  width: 600px;
+  height: auto;
+  margin: 200px auto;
+}
+
+/* line 587, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/body_estilo.css */
+.artist-mais-like-index {
+  position: relative;
+  left: 15px;
+}
+
+/* line 1, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+footer {
+  position: relative;
+  bottom: 0 !important;
+  width: 100%;
+}
+
+/* line 7, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.rodape-inferior {
+  height: 20px;
+  background-color: #000;
+  top: 10px;
+  bottom: 0px;
+}
+
+/* line 14, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.texto-rodape-inferior {
+  position: relative;
+  left: 20px;
+  color: #fff;
+}
+
+/* line 20, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.mapa-do-site {
+  height: 200px;
+  background-color: #8E0000;
+  z-index: 2;
+}
+
+/* line 26, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.menu-mapa-do-site {
+  position: absolute;
+  left: 35px;
+  color: #fff;
+  top: 20px;
+}
+
+/* line 33, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.menu-mapa-do-site ul {
+  display: inline-block;
+}
+
+/* line 37, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.menu-mapa-do-site ul:first-child, .menu-mapa-do-site ul:last-child {
+  position: relative;
+  top: -23px;
+}
+
+/* line 42, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.menu-mapa-do-site ul:last-child {
+  position: relative;
+  top: -48px;
+}
+
+/* line 47, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.menu-mapa-do-site ul > li {
+  position: relative;
+  left: 20px;
+}
+
+/* line 52, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.m1enu-mapa-do-site ul:nth-child(even) {
+  position: relative;
+  top: 0px;
+}
+
+/* line 57, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.menu-mapa-do-site li, .menu-mapa-do-site a:link, .menu-mapa-do-site a:visited {
+  list-style: none;
+  color: #fff;
+  padding: 3px 0;
+  font-size: 1.2rem;
+}
+
+/* line 64, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.menu-mapa-do-site ul li:first-child {
+  font-size: 1.8rem;
+}
+
+/* line 67, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.logo-mapa-do-site {
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+/* line 73, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.link-development {
+  position: relative;
+  top: 0;
+  float: right;
+  padding-right: 40px;
+}
+
+/* line 80, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/footer_estilo.css */
+.link-development a:visited, .link-development a:active, .link-development a:link {
+  color: #fff;
+}
+
+/* line 1, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/principal_estilo.css */
+textarea {
+  resize: none;
+  width: 100%;
+  height: 100px;
+}
+
+/* line 7, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/principal_estilo.css */
+.link a:active, .link a:hover, .link a:visited {
+  color: #fff;
+}
+
+/* line 11, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/principal_estilo.css */
+a:active, a:hover, a:visited, a:link {
+  text-decoration: none !important;
+}
+
+/* line 15, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/principal_estilo.css */
+.container {
+  position: relative;
+  width: 1002px !important;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 24, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/principal_estilo.css */
+.container-videos {
+  width: 92%;
+  margin: 0 auto;
+}
+
+/* line 1, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.menu_faq {
+  position: relative;
+  top: 50px;
+  float: left;
+  min-height: 300px;
+  width: 20%;
+  border-right: 3px solid #8E0000;
+}
+
+/* line 10, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.menu_faq ul {
+  position: relative;
+  top: 30px;
+  list-style: none;
+  text-align: right;
+}
+
+/* line 18, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.menu_faq ul li {
+  font-size: 1.3rem;
+  color: #8E0000;
+}
+
+/* line 23, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.menu_faq ul li a {
+  padding: 6px 15px;
+}
+
+/* line 28, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.btn_menu_faq, .btn_menu_faq a:hover, .btn_menu_faq a:active {
+  position: relative;
+  display: block;
+  width: 100%;
+  color: #8E0000;
+}
+
+/* line 36, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.btn_menu_faq:hover, .btn_menu_faq:visited {
+  color: #fff;
+  background-color: #8E0000;
+}
+
+/* line 44, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.faq h3 {
+  position: relative;
+  width: 78%;
+  left: 40px;
+  color: #8E0000;
+  top: 27px;
+}
+
+/* line 53, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.content_faq {
+  position: relative;
+  float: left;
+  min-height: 300px;
+  width: 78%;
+  left: 40px;
+  top: 25px;
+}
+
+/* line 62, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.faq_cadastro h4 {
+  color: #8E0000;
+}
+
+/* line 66, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.faq ul {
+  list-style: none;
+}
+
+/* line 69, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.faq ul > li {
+  width: 100%;
+  border-bottom: 1px dotted #ccc;
+  margin: 20px -40px;
+}
+
+/* line 75, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.faq li > strong {
+  cursor: pointer;
+}
+
+/* line 79, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.faq li > p {
+  margin: 10px 0;
+  display: none;
+}
+
+/* line 84, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.rotate {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/*dicas de uso*/
+/* line 92, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.dicas h3 {
+  position: relative;
+  top: -15px;
+  left: 0;
+  color: #8E0000;
+}
+
+/* line 100, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.content_dicas {
+  position: relative;
+  float: left;
+  min-height: 300px;
+  width: 75%;
+  left: 40px;
+  top: 40px;
+}
+
+/* line 109, D:/RapGospelBrasil2.0/app/assets/stylesheets/estilo_index/faq_estilo.css */
+.container_dicas li, .container_dicas img {
+  margin-top: 20px;
+}
+
+/*
+ * jQuery Blueberry Slider v0.4 BETA
+ * http://marktyrrell.com/labs/blueberry/
+ *
+ * Copyright (C) 2011, Mark Tyrrell <me@marktyrrell.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+/* line 22, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry {
+  margin: 0 auto;
+}
+
+/* line 23, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .slides {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 28, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .slides li {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+/* line 33, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .slides li img {
+  display: block;
+  width: 901px;
+  height: 194px;
+  max-width: none;
+}
+
+/* line 39, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .slides li.active {
+  display: block;
+  position: relative;
+}
+
+/* line 40, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .crop li img {
+  width: auto;
+}
+
+/* line 42, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .pager {
+  height: 40px;
+  text-align: center;
+}
+
+/* line 46, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .pager li {
+  display: inline-block;
+}
+
+/* line 47, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .pager li a,
+.blueberry .pager li a span {
+  display: block;
+  height: 4px;
+  width: 4px;
+  background-color: #282828;
+}
+
+/* line 54, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .pager li a {
+  padding: 18px 8px;
+}
+
+/* line 57, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .pager li a span {
+  overflow: hidden;
+  background: #8E0000;
+  text-indent: -9999px;
+  border-radius: 50%;
+}
+
+/* line 67, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .pager li.active a span {
+  background: #F9F9F9;
+}
+
+/* line 69, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.pager li > a, .pager li > span {
+  border: none !important;
+}
+
+/* line 73, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.pager li > a:hover, .pager li > span:hover, .pager li > a:visited, .pager li > a:active {
+  background-color: transparent !important;
+}
+
+/* line 77, D:/RapGospelBrasil2.0/app/assets/stylesheets/css/blueberry.css */
+.blueberry .slides li:last-child {
+  top: -10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
