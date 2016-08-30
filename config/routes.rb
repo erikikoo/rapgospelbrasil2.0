@@ -1,12 +1,12 @@
 
 Rails.application.routes.draw do
 
-  #resources :likes
-  #resources :link_sound_clouds
+  resources :likes
+  resources :link_sound_clouds
   devise_for :artists
-  #resources :top5s
+  resources :top5s
   resources :words
-  #resources :notices
+  resources :notices
   resources :contacts, only: [:new, :create]
   resources :eventos, only: [:new, :create]
   
@@ -162,14 +162,14 @@ Rails.application.routes.draw do
   get '/envie_notice'                 => 'eventos#new'
   #get '/envie_notice'                 => 'events#create'
 
-   #resources :discographys
-   #resources :phones
-   #resources :emails
+   resources :discographys
+   resources :phones
+   resources :emails
    resources :artist_datas
-   #resources :rede_sociais
-   #resources :videos
-   #resources :commitments  
-   #resources :historys
+   resources :rede_sociais
+   resources :videos
+   resources :commitments  
+   resources :historys
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

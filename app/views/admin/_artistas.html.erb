@@ -8,48 +8,53 @@
 		Não existe artista <%= @option %>
     <% else %>
 	    <% @artists.each do |artist| %>      
-	      <div class="painel-show-adm text-aling">
-		      <% if !artist.aprovado? && !artist.nome.nil? %>
-				<span class="text-danger artista-nao-aprovado"><h5>Aguardando aprovação</h5></span>
-		      <% end %>
-		      <% if artist.bloqueado? %>
-				<span class="text-danger artista-nao-aprovado"><h5>Bloqueado</h5></span>
-		      <% end %>      
-		      <% if artist.nome.nil? %>
-				<span class="text-danger artista-nao-aprovado">
-					<h5>Incompleto há <%= "#{get_day(artist.updated_at)} dias"  %> </h5>
-				</span>
-				<span class="text-info artist-nao-completo-email">
-					<%= artist.artist.email %>
-				</span>	                       
-		      <% end %>      
-			  
-			  <% if artist.logo.present? %>			  		
-		      	<%= image_tag artist.logo.url(:medium), class: 'img-thumbnail' %>      
-		      	<%= artist.nome %>
-		      <% else %>
-		      	<%= image_tag("ImagemArtistaSemFoto.png", with:'250px', height:'250px', class: 'img-thumbnail') %>
-		      	<%= artist.nome %>
-		      <% end %>
-		      
-		      <br />
-		      <% if @profile == "admin" %>        
-		        <%= link_to "Vizualizar","/show_artista/#{artist.id}/admin", :class => "btn btn-default btn-xs", :remote => true %>			   
-			   <% end %>	
-			   
-			   <% if artist.nome.nil? and (get_day(artist.updated_at) > 9) %>
-					
+	      <% @admin.each do |admin| %>		  	
+	      	<% if artist.id != admin.id %>
+		  		<div class="painel-show-adm text-aling">
+			      <% if !artist.aprovado? && !artist.nome.nil? %>
+					<span class="text-danger artista-nao-aprovado"><h5>Aguardando aprovação</h5></span>
+			      <% end %>
+			      <% if artist.bloqueado? %>
+					<span class="text-danger artista-nao-aprovado"><h5>Bloqueado</h5></span>
+			      <% end %>      
+			      <% if artist.nome.nil? %>
+					<span class="text-danger artista-nao-aprovado">
+						<h5>Incompleto há <%= "#{get_day(artist.updated_at)} dias"  %> </h5>
+					</span>
+					<span class="text-info artist-nao-completo-email">
+						<%= artist.artist.email %>
+					</span>	                       
+			      <% end %>      
+				  
+				  <% if artist.logo.present? %>			  		
+			      	<%= image_tag artist.logo.url(:medium), class: 'img-thumbnail' %>      
+			      	<%= artist.nome %>
+			      <% else %>
+			      	<%= image_tag("ImagemArtistaSemFoto.png", with:'250px', height:'250px', class: 'img-thumbnail') %>
+			      	<%= artist.nome %>
+			      <% end %>
+			      
+			      <br />
+			      <% if @profile == "admin" %>        
+			        <%= link_to "Vizualizar","/show_artista/#{artist.id}/admin", :class => "btn btn-default btn-xs", :remote => true %>			   
+				   <% end %>	
+				   
+				   <% if artist.nome.nil? and (get_day(artist.updated_at) > 9) %>
+							
 						<%= link_to 'Excluir', "/remove_artista/#{artist.id}/admin", method: :delete ,:remote => true ,data: { confirm: 'Você está prestes a bloquear este artista, confirma ?' } , class: 'btn btn-danger btn-xs'%>
-					
-				<% end %>
+							
+					<% end %>
+				
 
-			    <% if  @adm.id != artist.id %>
-			      	<% if  artist.aprovado? and !artist.bloqueado? %>	
-			       		<%= link_to 'Bloquear', "/bloquear_artista/#{artist.id}/admin", :remote => true ,data: { confirm: 'Você está prestes a bloquear este artista, confirma ?' } , class: 'btn btn-warning btn-xs'%>
-			       	<% end %>		        	
-			   	<% end %>		     
-	    	</div>	  
-	    <% end %> 
-	  <% end %>  
+				    
+				    <% if  artist.aprovado? and !artist.bloqueado? %>	
+				    	<%= link_to 'Bloquear', "/bloquear_artista/#{artist.id}/admin", :remote => true ,data: { confirm: 'Você está prestes a bloquear este artista, confirma ?' } , class: 'btn btn-warning btn-xs'%>
+				    <% end %>		        	
+				   	
+		    	</div>    	  
+	    	<% end %> 
+	      <% end %>	
+	  	<% end %>
+	 <% end %> 	 	
  </div>
 

@@ -1,5 +1,7 @@
 <h3>Release</h3>
 <div class="release text-justify">
-	<%= raw(@artist_data.history.historia) %>
+	<% unless @artist_data.history.nil? %>
+		<%= raw(@artist_data.history.historia) %>
+	<% end %>
 </div>
 	

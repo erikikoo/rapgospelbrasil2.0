@@ -3,18 +3,18 @@
 	<div class="panel-body">
 			
 			<div class="panel panel-default">
-				<div class="panel-heading">Capa</div>
+				<div class="panel-heading">Contatos</div>
 				<div class="panel-body">		
 					<% if @artist_data.logo.present? %>
-						<%= cl_image_tag(@artist_data.logo.url(:medium), :class => 'img-thumbnail') %>					
+						<%= cl_image_tag(@artist_data.logo.url(:perfil), :class => 'img-thumbnail') %>					
 					<% else %>
 						<%= image_tag("ImagemArtistaSemFoto.png", width: '250px', heigth: '250px;') %>
 					<% end %>
-					<br />	
+					<br />
 					
+					<%= link_to 'Mudar Imagem', "/edit_artista/#{@artist_data.id}", remote: true, class: 'btn btn-default' %>					
 				</div>
 			</div>		
-		
 			<div class="panel panel-default">
 				<div class="panel-heading">Contatos</div>
 				<div class="panel-body">		
@@ -46,18 +46,18 @@
 				<div class="panel-body">
 					<%= render partial: 'commitments/index'%>
 				</div>
-			</div>
+			</div>			
 
 			<div class="panel panel-default">
 				<div class="panel-heading">Redesociais</div>
 				<div class="panel-body">
 					<%= render partial: 'rede_sociais/index'%>
 				</div>
-			</div>				
+			</div>			
 		
 		
 			<div class="panel panel-default">
-				<div class="panel-heading">História</div>
+				<div class="panel-heading">Release</div>
 				<div class="panel-body">
 					<%= render partial: 'artist_datas/show_historia'%>
 				</div>
@@ -65,10 +65,15 @@
 		
 	
 		
-			<% if !@artist_data.aprovado? %>
-				<%= link_to 'Aprovar',"/aprovar_artista/#{@artist_data.id}/admin", remote: true, data: { confirm: 'Deseja aprovar a publicação deste artista?' }, class: 'btn btn-lg btn-success'%>
+			<% unless @artist_data.nome.nil? %>
+				<% unless @artist_data.aprovado? %>
+					<%= link_to 'Aprovar',"/aprovar_artista/#{@artist_data.id}/admin", remote: true, data: { confirm: 'Deseja aprovar a publicação deste artista?' }, class: 'btn btn-lg btn-success'%>							
+				<% end %>	
+				<% if @artist_data.aprovado? and !@artist_data.bloqueado? %>
+					<%= link_to 'Bloquear', "/bloquear_artista/#{@artist_data.id}/admin", :remote => true ,data: { confirm: 'Você está prestes a bloquear este artista, confirma ?' } , class: 'btn btn-warning btn-lg'%>
+				<% end %>
 			<% end %>
-			<% if  @artist_data.aprovado? and @artist_data.bloqueado?  %>	
+			<% if  @artist_data.aprovado? and @artist_data.bloqueado? %>	
 		    	<%= link_to 'Desbloquear', "/desbloquear_artista/#{@artist_data.id}/admin", :remote => true ,data: { confirm: 'Você está prestes a desbloquear este artista, confirma ?' } , class: 'btn btn-warning btn-lg'%>
 		    <% end %>
 	</div>

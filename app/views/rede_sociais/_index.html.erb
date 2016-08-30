@@ -1,5 +1,5 @@
   <%= render partial: 'login/carregando' %> 
-  
+ 
     <p>
       <% if @profile == "adm" and @exist_rede_social_cad.empty? %>
         <%= link_to 'Adicionar Rede social', "/novo_rede_social/", remote: true, :class => 'btn btn-default'  %>
@@ -30,5 +30,3 @@
           </p>
         
     <% end %>
-
-    

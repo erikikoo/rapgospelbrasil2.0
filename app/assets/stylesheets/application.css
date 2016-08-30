@@ -398,51 +398,11 @@
 		background-image: url('https://res.cloudinary.com/dgql7hcka/image/upload/v1465059413/body-img/backgroundcadastro.jpg');
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
-		/*background-position: 0 -120px;*/		
+		
 		min-height: 723px;
 		margin-top: -36px;
 	}
-/* @media screen and (max-width: 1199px) {
-	.pag-login {	
-		background-color: #000;
-		background-image: url('http://res.cloudinary.com/dgql7hcka/image/upload/v1464892071/backgroundcadastro_canrd8.jpg');
-		background-repeat: no-repeat;
-		background-size: 100% 833px;
-		background-position: 0 -120px;		
-		height: 713px;
-		margin-top: -36px;
-	}
 
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1366px ) {
-	.pag-login {
-		background-color: #000;	
-		background-image: url('http://res.cloudinary.com/dgql7hcka/image/upload/v1464892071/backgroundcadastro_canrd8.jpg');
-		background-repeat: no-repeat;
-		background-size: 100% auto;
-		background-position: 0 -120px;
-		width: 100%;
-		min-height: 673px;
-		height: 713px;
-		margin-top: -76px;
-	}
-} 
-
-@media screen and (min-width: 1366px) {
-	.pag-login {
-		background-color: #000;	
-		background-image: url('http://res.cloudinary.com/dgql7hcka/image/upload/v1464892071/backgroundcadastro_canrd8.jpg');
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		/*background-position: 0 -120px;
-		width: 100%;
-		min-height: 673px;
-		height: 713px;
-		margin-top: -76px;
-	}
-}
-*/
 
 
 
