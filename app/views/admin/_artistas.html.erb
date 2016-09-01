@@ -7,9 +7,7 @@
     <% if @artists.nil? || @artists.empty? %>
 		Não existe artista <%= @option %>
     <% else %>
-	    <% @artists.each do |artist| %>      
-	      <% @admin.each do |admin| %>		  	
-	      	<% if artist.id != admin.id %>
+	    <% @artists.each do |artist| %>      	      	  	
 		  		<div class="painel-show-adm text-aling">
 			      <% if !artist.aprovado? && !artist.nome.nil? %>
 					<span class="text-danger artista-nao-aprovado"><h5>Aguardando aprovação</h5></span>
@@ -52,8 +50,7 @@
 				    <% end %>		        	
 				   	
 		    	</div>    	  
-	    	<% end %> 
-	      <% end %>	
+	    	
 	  	<% end %>
 	 <% end %> 	 	
  </div>
